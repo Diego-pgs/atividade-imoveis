@@ -1,0 +1,56 @@
+:root {
+  --primary: #00b98e;
+  --secondary: #effdf5;
+  --light: #effdf5;
+  --dark: #0e2e50;
+}
+
+*{
+  font-size: 22px;
+}
+
+/*Fonte: Heebo*/
+body {
+  font-family: 'Heebo', sans-serif;
+}
+
+header {
+  height: 10vh;
+}
+
+.botao-start{
+    background-color: var(--primary); 
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.botao-submit{
+  background-color: var(--primary); 
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.img-size {
+  width: 80px;
+  height: auto;
+}
+
+footer{
+  background-color: var(--dark);
+  color: white;
+}
+
+footer img {
+  width: 20px;
+}
+
+@media(max-width: 992px){
+  header{
+      height: 100%;
+  }
+  
+}
